@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Salt::Transformer do
-  include Salt::Spec::Fixtures
+  include Salt::Support::Fixtures
 
   let(:doc) { double("document") }
   let(:transformation) { double("transformation") }

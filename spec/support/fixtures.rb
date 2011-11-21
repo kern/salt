@@ -1,5 +1,5 @@
 module Salt
-  module Spec
+  module Support
     module Fixtures
       def load_fixture(filename)
         File.open(fixture_path(filename)) { |f| f.read }
